@@ -1,3 +1,4 @@
+import { ContactSection } from "../components/ContactSection";
 import { Navbar } from "../components/Navbar";
 import { StarBackground } from "../components/StarBackground";
 import { ThemeToggle } from "../components/ThemeToggle";
@@ -15,8 +16,7 @@ export const Home = () => {
       
       {/* Main Content */}
       <main>
-        
-
+        <ContactSection />
       </main>
 
       {/* Footer */}
