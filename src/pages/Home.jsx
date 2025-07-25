@@ -1,4 +1,5 @@
 import { Navbar } from "../components/Navbar";
+import { SkillsSection } from "../components/SkillsSection";
 import { StarBackground } from "../components/StarBackground";
 import { ThemeToggle } from "../components/ThemeToggle";
 
@@ -15,7 +16,7 @@ export const Home = () => {
       
       {/* Main Content */}
       <main>
-        
+        <SkillsSection />
 
       </main>
 
