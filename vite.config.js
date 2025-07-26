@@ -5,7 +5,7 @@ import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: 'Personal-Website', 
+  base: '/Personal-Website/',
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {

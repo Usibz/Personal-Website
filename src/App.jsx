@@ -6,13 +6,14 @@ import { NotFound } from "./pages/NotFound";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/Personal-Website/ ">
         <Routes>
           <Route index element={<Home/>} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
     </>
+    // <div>Help</div>
   );
 }
 
